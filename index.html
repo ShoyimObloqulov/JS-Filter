@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax and JS filter</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- main -->
+    <div class="container mt-2">
+        <div class="row">
+            <div class="col-md-3">
+                <select class="form-select viloyat m-2">
+                </select>
+            </div>
+            <div class="col-md-3">
+                <select class="form-select tuman m-2">
+                </select>
+            </div>
+            <div class="col-md-3">
+                <select class="form-select talim m-2">
+                </select>
+            </div>
+            <div class="col-md-3">
+                <select class="form-select kurs m-2">
+                </select>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="input-group mb-3">
+                    <input type="text" id="search1" class="form-control" placeholder="Tashkilot nomi" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                    <button class="btn btn-primary" type="button" id="button1">Izlash</button>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-12">
+                <table class="table table-striped table-hover table-bordered border-success">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Talim turi</th>
+                            <th scope="col">Muassasa</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tr">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- end main -->
+    <!-- JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
