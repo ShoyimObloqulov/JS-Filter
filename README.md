@@ -2,7 +2,7 @@
 ![image](https://user-images.githubusercontent.com/92427513/193407722-af211bfc-16a2-456f-b786-20e735ce0b49.png)
 
 # API
-### Robocontest.uz && https://github.com/ShoyimObloqulov/uzb_regions.
+### Robocontest.uz && <a href='https://img.shields.io/badge/Robocontest.uz-ObloqulovShoyim-brightgreen'></a>.
 
 # Requests
 #### Viloyatlarni olish
