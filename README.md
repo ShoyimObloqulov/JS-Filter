@@ -4,6 +4,19 @@
 # API
 ### Robocontest.uz && https://github.com/ShoyimObloqulov/uzb_regions.
 
+# Requests
+#### Viloyatlarni olish
+  <code>https://robocontest.uz/api/regions</code>
+#### Tumanlarni olish
+  <code>https://robocontest.uz/api/regions?q=$region_id</code>
+#### Query
+  <ul>
+    <li><code>https://robocontest.uz/api/study_places?term=search&_type=query&q=search<code></li>
+    <li><code>https://robocontest.uz/api/study_places?term=search&_type=query&q=search<code></li>
+    <li><code>https://robocontest.uz/api/study_places?term=search&_type=query&q=search<code></li>
+  </ul>
+    
+
 
 
 
