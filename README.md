@@ -6,9 +6,9 @@
 
 # Requests
 #### Viloyatlarni olish
-  <code>https://robocontest.uz/api/regions</code>
+<code>https://robocontest.uz/api/regions</code>
 #### Tumanlarni olish
-  <code>https://robocontest.uz/api/regions?q=$region_id</code>
+<code>https://robocontest.uz/api/regions?q=$region_id</code>
 #### Query
 <code>https://robocontest.uz/api/study_places?term=search&_type=query&q=search</code><br>
 <code>https://robocontest.uz/api/study_levels/{a}</code>, a = [0 || 1]<br>
