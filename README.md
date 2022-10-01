@@ -10,11 +10,9 @@
 #### Tumanlarni olish
   <code>https://robocontest.uz/api/regions?q=$region_id</code>
 #### Query
-<ul>
-   <li><code>https://robocontest.uz/api/study_places?term=search&_type=query&q=search<code></li>
-   <li><code>https://robocontest.uz/api/study_levels/{a} - a=[0 || 1]<code></li>
-   <li><code>https://robocontest.uz/api/study_places?term=search&_type=query&q=search<code></li>
-</ul>
+<code>https://robocontest.uz/api/study_places?term=search&_type=query&q=search<code>
+<code>https://robocontest.uz/api/study_levels/{a}, a = [0 || 1]<code>
+<code>https://robocontest.uz/api/study_places?term=search&_type=query&q=search<code>
     
 
 
