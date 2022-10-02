@@ -14,6 +14,10 @@
 <code>https://robocontest.uz/api/study_places?term=search&_type=query&q=search</code><br>
 <code>https://robocontest.uz/api/study_levels/{a}</code>, a = [0 || 1]<br>
 <code>https://robocontest.uz/api/study_places?term=search&_type=query&q=search</code><br>
+
+# DTM filter
+![image](https://user-images.githubusercontent.com/92427513/193468406-e92f5f2e-f31d-46ad-971e-c911f26d528e.png)
+
     
 
 
