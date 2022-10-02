@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Filter JS</title>
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <!-- Select2 -->
+    <link rel="stylesheet" href="plugins/select2/css/select2.min.css">
+    <link rel="stylesheet" href="plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+    <!-- Bootstrap4 Duallistbox -->
+    <link rel="stylesheet" href="plugins/bootstrap4-duallistbox/bootstrap-duallistbox.min.css">
+    <!-- BS Stepper -->
+    <link rel="stylesheet" href="plugins/bs-stepper/css/bs-stepper.min.css">
+    <!-- dropzonejs -->
+    <link rel="stylesheet" href="plugins/dropzone/min/dropzone.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+</head>
+
+<body class="m-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label>Hududni tanlang</label>
+                    <select class="form-control select2 hudud" style="width: 100%;">
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label>OTMni tanlang</label>
+                    <select class="form-control otm" style="width: 100%;">
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label>Yo'nalishni tanlang</label>
+                    <select class="form-control yunalish" style="width: 100%;">
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label>Talim tilini tanlang</label>
+                    <select class="form-control til" style="width: 100%;">
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label>Talim shaklini tanlang</label>
+                    <select class="form-control shakli" style="width: 100%;">
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group fio">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Select2 -->
+    <script src="plugins/select2/js/select2.full.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="dist/js/adminlte.min.js"></script>
+    <!-- Page specific script -->
+    <script>
+    $(function() {
+        $("input[data-bootstrap-switch]").each(function() {
+            $(this).bootstrapSwitch('state', $(this).prop('checked'));
+        });
+    });
+    </script>
+    <script src="json/talim.js"></script>
+    <script src="json/lang.js"></script>
+    <script src="json/fakultet.js"></script>
+    <script src="json/universitet.js"></script>
+    <script src="json/region.js"></script>
+    <script type="text/javascript" src="dist/main.js"></script>
+</body>
+
+</html>
